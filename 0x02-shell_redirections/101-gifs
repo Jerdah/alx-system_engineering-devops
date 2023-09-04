@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" -exec sh -c 'printf "%s\n" "$0" | rev | cut -d"." -f2- | rev' {} \; | sort -f | sed '$a\'
+find . -type f -name '*.gif' -exec sh -c 'for file do printf "%s\n" "${file##*/}" | sed "s/\.gif$//i"; done' sh {} + | sort -f | sed '$a'
