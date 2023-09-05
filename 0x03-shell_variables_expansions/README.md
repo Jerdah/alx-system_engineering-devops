@@ -1,6 +1,6 @@
 ## 0x03-shell_variables_expansions
 
-###Resources
+### Resources
 
 #### Read or watch:
 
@@ -43,7 +43,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ### Tasks
 
-#### [0-alias>]() - A script that creates an alias.
+#### [0-alias]() - A script that creates an alias.
 
 - Name: `ls`
 - Value: `rm *`
