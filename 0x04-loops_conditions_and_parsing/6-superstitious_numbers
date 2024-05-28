@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Script displays numbers from 1-20 and prints special messages for certain iterations
+
+i=0
+while (( i++ < 20 ))
+do
+    echo "$((i))"
+    case "$((i))" in
+        4)
+            echo 'bad luck from China'
+            ;;
+        9)
+            echo 'bad luck from Japan'
+            ;;
+        17)
+            echo 'bad luck from Italy'
+            ;;
+    esac
+done

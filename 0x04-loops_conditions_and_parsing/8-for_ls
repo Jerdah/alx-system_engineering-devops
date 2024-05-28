@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Script displays the contents of the current directory with prefixes stripped
+
+for file in *
+do
+    echo "${file#*-}"
+done
