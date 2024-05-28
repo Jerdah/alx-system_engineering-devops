@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Script is displayS "Best School" 10 times
+
+counter=1
+until (( counter++ == 10 ))
+do
+    echo "Best School"
+    ((counter++))
+done
