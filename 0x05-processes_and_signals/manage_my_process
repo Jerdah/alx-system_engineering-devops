@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Script indefinitely writes a statement to a file
+ 
+while true
+do
+    echo "I am alive!"
+    sleep 2
+done

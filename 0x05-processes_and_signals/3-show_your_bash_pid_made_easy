@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Script displays the PID, along with the process name which contain name bash"
+
+pmap=$(pmap $$)
+echo "$pmap" | awk '/bash/ {print $3}'
