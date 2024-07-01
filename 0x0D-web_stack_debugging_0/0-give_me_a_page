@@ -1,0 +1,5 @@
+# Commands used to install curl inside the Docker container
+docker exec -it <container_id_or_name> /bin/bash
+apt-get update
+apt-get install -y curl
+exit
